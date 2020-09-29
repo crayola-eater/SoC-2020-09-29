@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script src="task1.js" defer></script> -->
+    <!-- <script src="task2.js" defer></script> -->
+    <!-- <script src="task3.js" defer></script> -->
+    <script src="taskbonus.js" defer></script>
+  </head>
+  <body class="">
+    <div class="input flex-col">
+      <input type="text" id="todo-input" placeholder="Enter a todo..." />
+      <label for="todo-date-due-input">Add due date</label>
+      <input type="date" id="todo-date-due-input" />
+      <button id="add-todo">Add todo</button>
+    </div>
+    <hr />
+    <h1>Todos</h1>
+    <ul id="todo-list"></ul>
+    <button id="clear-todos" class="btn_danger">Clear finished tasks</button>
+  </body>
+</html>
